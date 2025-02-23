@@ -100,6 +100,7 @@ public:
 		const Frame& frame = frame_list[idx_frame];
 
 		Rect rect_dst;
+		// 让角色水平、垂直居中
 		rect_dst.x = (int)position.x - frame.rect_src.w / 2;
 		rect_dst.y = (int)position.y - frame.rect_src.h / 2;
 		rect_dst.w = frame.rect_src.w, rect_dst.h = frame.rect_src.h;

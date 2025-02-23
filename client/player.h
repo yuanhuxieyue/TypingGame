@@ -118,9 +118,9 @@ private:
 	const float SPEED_RUN = 100.0f;
 
 private:
-	Vector2 position;
-	Vector2 velocity;
-	Vector2 pos_target;
+	Vector2 position;   // 当前位置
+	Vector2 velocity;   // 移动速度
+	Vector2 pos_target; // 目标位置
 
 	Animation anim_idle_up;
 	Animation anim_idle_down;
