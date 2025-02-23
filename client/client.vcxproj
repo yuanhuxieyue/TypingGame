@@ -135,7 +135,6 @@
     <ClInclude Include="camera.h" />
     <ClInclude Include="path.h" />
     <ClInclude Include="player.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="timer.h" />
     <ClInclude Include="util.h" />
     <ClInclude Include="vector2.h" />
